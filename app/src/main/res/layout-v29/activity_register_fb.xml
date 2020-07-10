@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_fb"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="what's your name?"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:textSize="15sp"
+    android:textColor="#000000"
+    android:layout_marginTop="16dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="16dp"
+        android:hint="First Name">
+    </com.google.android.material.textfield.TextInputEditText>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="Last Name">
+        </com.google.android.material.textfield.TextInputEditText>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="what's your Email address?"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="16dp"
+        android:hint="Email Address">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="what's your Password?"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="16sp"
+        android:hint="Password">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="what's your Phone Number?"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="16sp"
+        android:hint="Phone number">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="when is your Birthday?"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        />
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:forceDarkAllowed="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:yearListSelectorColor="#ffffff"
+        >
+        
+    </DatePicker>
+</LinearLayout>
